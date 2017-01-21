@@ -5,6 +5,8 @@ class Node
 
 	def initialize(value = nil) 
 		@value = value
+		@left = nil
+		@right = nil
 	end
 
 end
